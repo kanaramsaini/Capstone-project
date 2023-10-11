@@ -1,0 +1,25 @@
+.authentication-container{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: 30px auto;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .authentication-container{
+       display:flex;
+        width:100%;
+      flex-direction: row;
+        margin: 30px auto;
+        border-radius: 6px;
+        
+        padding: 20px;
+      
+    }
+}
